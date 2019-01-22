@@ -30,13 +30,6 @@ public class Node<Type> {
     }
 
     /**
-     * @param givenValue the value to set
-     */
-    public void setValue(final Type givenValue) {
-        this.value = givenValue;
-    }
-
-    /**
      * @return the next
      */
     public Node<Type> getNext() {
